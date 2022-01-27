@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000500;
+  color: #707070;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
+
+header {
+  padding: 1.5rem;
+  border-bottom: 2px solid #707070;
+}
+input {
+  font-family: Verdana, sans-serif;
+  padding: 0.2rem;
+}
+
+button,
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+button {
+  font-family: Verdana, sans-serif;
+  width: 100%;
+  background-color: #707070;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover,
+button:focus {
+  background-color: white;
+}
+
+.website-link {
+  display: inline-block;
+  color: aliceblue;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 0.75rem;
+  transition-property: font-size;
+  transition-duration: 2s;
+}
+
+.website-link:hover,
+.website-link:focus {
+  font-size: 1.25rem;
+}
+
+.form {
+  padding: 1rem;
+  text-align: left;
+}
+
+.form div {
+  margin: 0.5rem 0;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 100px);
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
